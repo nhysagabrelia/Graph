@@ -1,0 +1,8 @@
+# Contoh Query GraphQL
+query {
+  user(id: 1) {
+    id
+    username
+    email
+  }
+}
